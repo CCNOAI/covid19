@@ -1,0 +1,35 @@
+/*-------------Media Querries-----------------*/
+@media only screen and (max-width: 1199px) {
+  header.default-header {
+    padding: 8px 0;
+  }
+}
+
+/*------------- 1024px -----------------*/
+/*------------- 991px -----------------*/
+/*------------- 767px -----------------*/
+@media only screen and (max-width: 767px) {
+  .comparison table {
+    table-layout: auto;
+  }
+}
+
+/*------------- 660px -----------------*/
+@media only screen and (max-width: 640px) {
+  .comparison td,
+  .comparison th {
+    padding: 10px 5px;
+  }
+  .comparison .planheading,
+  .comparison .featured {
+    font-size: 11px;
+    padding: 10px 4px;
+  }
+  .compare-heading {
+    font-size: 13px;
+  }
+}
+
+/*------------- 480px -----------------*/
+/*------------- 425px -----------------*/
+/*------------- 330px -----------------*/

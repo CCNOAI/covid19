@@ -1,0 +1,62 @@
+@import "partials/variables.scss";
+@import "partials/mixins.scss";
+
+
+
+footer {
+
+    background: $themecolor;
+    padding: 30px 0;
+
+    .footer-widget {
+        h2 {
+            font-size: rems(18);
+            font-weight: 600;
+            color: $whitecolor;
+
+            margin-bottom: 15px;
+        }
+
+        ul {
+            li {
+                margin-bottom: 8px;
+
+                a {
+                    font-size: rems(16);
+                    font-weight: 400;
+                    color: $whitecolor;
+                }
+
+                &:hover {
+                    a {
+                        text-decoration: underline !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .socialmedia-footer {
+        ul {
+            margin-top: 25px;
+            text-align: center;
+
+            li {
+                display: inline-block;
+                margin-right: 10px;
+
+                a {
+                    font-size: rems(19);
+                    font-weight: 400;
+                    color: $whitecolor;
+                }
+            }
+        }
+    }
+
+    .copyright {
+        color: $whitecolor;
+        text-align: center;
+        margin-top: 35px;
+    }
+}
